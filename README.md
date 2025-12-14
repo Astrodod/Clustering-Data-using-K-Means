@@ -1,1 +1,3 @@
-# -Clustering-Sales-Data-Using-K-Means
+# Clustering-Sales-Data-Using-K-Means
+The Sales Transactions Dataset Weekly was loaded directly from the provided CSV file using pandas. The non-essential columns of data were eliminated to present the data to the K-Means clustering algorithm, including product identifiers and raw sales values.The normalized data was cleaned and then the trained dataset was K-Means. Only the normalized weekly sales features were retained to ensure all variables were on the same scale and suitable for distance-based clustering. 
+The resulting cluster labels were added back to the original sales data to aid in the analysis and interpretation of the clustering results.
